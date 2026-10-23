@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.test-data/
+node_modules/
+.venv/
+venv/
+releases/
+dist/
+coverage/
+*.log
+*.sqlite3*
+host-config.json
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db

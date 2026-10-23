@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "下载驿站 · Download Port",
+  "version": "1.0.0",
+  "description": "逐层浏览已有文件夹，确认下载位置；支持仅下一次、目录搜索和下载后可靠归档。",
+  "minimum_chrome_version": "120",
+  "permissions": [
+    "downloads",
+    "storage",
+    "nativeMessaging",
+    "alarms"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "下载驿站",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png"
+    }
+  },
+  "options_page": "options.html",
+  "incognito": "not_allowed",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjb0MLapl1dYl47LBDLpJL5oSxFRyRVR9qQ3DARFAsszefl9m1o0v/xSKChtNuJXzvSjXi8dqYeH6/962owMXs/uYo3CT0SeH/Qn8zG+UHydiPKrlb2T00XreLtJDLK86ST9Yn5u+7u2CnJa8Y8cz/0pYzWUZxJ2EqTm889+Zsm7O0NNNIRL1U2GGSuAAMPEEbWwAPOpzaRTXPH7b9sS8ZNUQ8uZ42Rm0PN+LgdXins7d/EjRPChKjyFk+c9c899bbcSMYNCY0Unrg+Al0Wt+/PVO2jUiJIU3qQg6JlH6alw9MwNJPRYYGiTkfnprab0KgT8qDK1C6yFwjbKETYYYbQIDAQAB",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
